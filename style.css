@@ -1,17 +1,26 @@
 .foto{
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 500px;
     border-style: double;
     border-color: orangered;
+}
+.thumb img{
+    display: inline-block;
+    border: 3px solid orange;
+    padding: 15px;
+    background: aquamarine;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 nav {
     margin: 27px auto 0;
     position: relative;
     width: 610px;
     height: 50px;
-    background-color: #34495e;
+    background-color: gray;
     border-radius: 8px;
     font-size: 15px;
+    font-family: Century;
 }
 nav a {
     line-height: 50px;
@@ -52,29 +61,28 @@ a:nth-child(5) {
 nav .start-home, a:nth-child(1):hover~.animation {
     width: 100px;
     left: 0;
-    background-color: #1abc9c;
+    background-color: #e74c3c;
 }
 nav .start-blog, a:nth-child(2):hover~.animation {
     width: 110px;
     left: 100px;
-    background-color: #e74c3c;
+    background-color: #1abc9c;
 }
 nav .start-basket, a:nth-child(3):hover~.animation {
     width: 110px;
     left: 210px;
-    background-color: #3498db;
+    background-color: #CC0066;
 }
 nav .start-portefolio, a:nth-child(4):hover~.animation {
     width: 160px;
     left: 330px;
-    background-color: #9b59b6;
+    background-color: #228B22;
 }
 nav .start-contact, a:nth-child(5):hover~.animation {
     width: 110px;
     left: 500px;
     background-color: #e67e22;
 }
-
 body {
     font-size: 12px;
     font-family: sans-serif;
@@ -92,7 +100,7 @@ h2 {
     margin: 10px 0 10px;
     text-align: left;
     font-size: 30px;
-    color: chartreuse;
+    color: deeppink;
     text-shadow: 1px 1px 2px #000000;
     font-family: 'Cherry Swash',cursive;
 }
@@ -109,7 +117,7 @@ section>p {
     width: 100%;
     text-align: left;
     color: white;
-    font-family: 'Cherry Swash',cursive;
+    font-family: "Century Gothic";
     font-size: 16px;
 }
 a {
@@ -124,4 +132,5 @@ a {
     height: 30px;
     background-color: orange;
     text-align:center;
+    padding: 5px;
 }
